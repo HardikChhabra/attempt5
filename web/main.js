@@ -5,12 +5,7 @@ import { getFirestore, doc, collection, onSnapshot,getDoc } from 'firebase/fires
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAH8rs1hJzPl6wiLMxrtJ5bB3Zr9VeCOB8",
-  authDomain: "hackathon-e9974.firebaseapp.com",
-  projectId: "hackathon-e9974",
-  storageBucket: "hackathon-e9974.appspot.com",
-  messagingSenderId: "922518483343",
-  appId: "1:922518483343:web:05b49a2a035113550b1bfa"
+  //your config
 };
 
 const app = initializeApp(firebaseConfig);
